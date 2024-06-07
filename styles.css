@@ -1,0 +1,25 @@
+.card {
+    margin-bottom: 20px; /* Add some margin between cards */
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 0 auto; /* Center cards horizontally */
+    }
+   
+}
+
+h1{
+    background-color: cadetblue;
+    margin: 0 auto;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.filtrar{
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(212, 212, 212);
+}

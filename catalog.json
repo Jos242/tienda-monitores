@@ -1,0 +1,358 @@
+﻿[
+    {
+        "id": 1,
+        "Marca": "Dell",
+        "Modelo": "E170Sc",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/placeholder.jpg",
+            "images/logocole.png",
+            "images/p2.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "Marca": "Dell",
+        "Modelo": "E176FPc",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 3,
+        "Marca": "Dell",
+        "Modelo": "E177FPf",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "5"
+    },
+    {
+        "id": 3,
+        "Marca": "Dell",
+        "Modelo": "E1912H / E1912Hc / E1912Hf",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "54"
+    },
+    {
+        "id": 4,
+        "Marca": "Dell",
+        "Modelo": "E1913c",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA; DVI",
+        "Precio": "2000",
+        "Cantidad": "31"
+    },
+    {
+        "id": 5,
+        "Marca": "Dell",
+        "Modelo": "E1914Hf",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "3"
+    },
+    {
+        "id": 6,
+        "Marca": "Dell",
+        "Modelo": "E1916Hf",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA; DisplayPort",
+        "Precio": "10000",
+        "Cantidad": "15"
+    },
+    {
+        "id": 7,
+        "Marca": "Dell",
+        "Modelo": "E2016Hb",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA; DisplayPort",
+        "Precio": "10000",
+        "Cantidad": "6"
+    },
+    {
+        "id": 8,
+        "Marca": "Dell",
+        "Modelo": "E2019Hb",
+        "Pulgadas": "21.5\"",
+        "Puertos": "VGA; DisplayPort",
+        "Precio": "15000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 9,
+        "Marca": "Dell",
+        "Modelo": "E2216H",
+        "Pulgadas": "22\"",
+        "Puertos": "DisplayPort; VGA",
+        "Precio": "15000",
+        "Cantidad": "8"
+    },
+    {
+        "id": 10,
+        "Marca": "AOC",
+        "Modelo": "E2270S",
+        "Pulgadas": "21.5\"",
+        "Puertos": "VGA",
+        "Precio": "5000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 11,
+        "Marca": "BENQ",
+        "Modelo": "ET-0024-NA",
+        "Pulgadas": "15\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 12,
+        "Marca": "BENQ",
+        "Modelo": "ET0025-B",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "6"
+    },
+    {
+        "id": 13,
+        "Marca": "HP",
+        "Modelo": "G9W86A",
+        "Pulgadas": "18.5\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 14,
+        "Marca": "HP",
+        "Modelo": "GS917A",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 15,
+        "Marca": "HP",
+        "Modelo": "GS918A",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 16,
+        "Marca": "HP",
+        "Modelo": "HSTND-2B03",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA; DVI",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 17,
+        "Marca": "HP",
+        "Modelo": "HSTND-3501-A",
+        "Pulgadas": "21.5\"",
+        "Puertos": "VGA",
+        "Precio": "5000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 18,
+        "Marca": "HP",
+        "Modelo": "HSTND-4011-F",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "2"
+    },
+    {
+        "id": 19,
+        "Marca": "HP",
+        "Modelo": "HSTND-5041-F",
+        "Pulgadas": "18.5\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 20,
+        "Marca": "HP",
+        "Modelo": "L1706",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "4"
+    },
+    {
+        "id": 21,
+        "Marca": "HP",
+        "Modelo": "L1710",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 22,
+        "Marca": "NEC",
+        "Modelo": "L174F",
+        "Pulgadas": "18.5\"",
+        "Puertos": "VGA; DVI",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 23,
+        "Marca": "HP",
+        "Modelo": "LV911",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 24,
+        "Marca": "Dell",
+        "Modelo": "P1913t",
+        "Pulgadas": "19\"",
+        "Puertos": "DisplayPort; VGA",
+        "Precio": "10000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 25,
+        "Marca": "Dell",
+        "Modelo": "P2214Hb",
+        "Pulgadas": "21.5\"",
+        "Puertos": "DisplayPort; DVI; VGA",
+        "Precio": "20000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 26,
+        "Marca": "Dell",
+        "Modelo": "P2219H",
+        "Pulgadas": "21.5\"",
+        "Puertos": "HDMI; DisplayPort",
+        "Precio": "20000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 27,
+        "Marca": "Dell",
+        "Modelo": "P2314Ht",
+        "Pulgadas": "24\"",
+        "Puertos": "VGA; DisplayPort; DVI",
+        "Precio": "35000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 28,
+        "Marca": "Dell",
+        "Modelo": "P2417H",
+        "Pulgadas": "24\"",
+        "Puertos": "HDMI; DisplayPort; VGA",
+        "Precio": "35000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 29,
+        "Marca": "Dell",
+        "Modelo": "P2419HC",
+        "Pulgadas": "24\"",
+        "Puertos": "HDMI; DisplayPort; Mini-DisplayPort",
+        "Precio": "35000",
+        "Cantidad": "9"
+    },
+    {
+        "id": 30,
+        "Marca": "AOC",
+        "Modelo": "TFT185W80PS",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "2"
+    },
+    {
+        "id": 31,
+        "Marca": "AOC",
+        "Modelo": "Tft19W80PS",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 32,
+        "Marca": "Dell",
+        "Modelo": "U2412Mb",
+        "Pulgadas": "24\"",
+        "Puertos": "DVI; VGA; DisplayPort",
+        "Precio": "35000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 33,
+        "Marca": "Dell",
+        "Modelo": "U2415b",
+        "Pulgadas": "24\"",
+        "Puertos": "HDMI; DisplayPort; Mini-DisplayPort",
+        "Precio": "35000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 33,
+        "Marca": "Dell",
+        "Modelo": "U2421HE",
+        "Pulgadas": "24\"",
+        "Puertos": "HDMI; DisplayPort; Mini-DisplayPort",
+        "Precio": "35000",
+        "Cantidad": "6"
+    },
+    {
+        "id": 34,
+        "Marca": "Dell",
+        "Modelo": "U2422HE",
+        "Pulgadas": "24\"",
+        "Puertos": "HDMI; DisplayPort; Mini-DisplayPort",
+        "Precio": "35000",
+        "Cantidad": "2"
+    },
+    {
+        "id": 35,
+        "Marca": "Dell",
+        "Modelo": "U2721DE",
+        "Pulgadas": "27\"",
+        "Puertos": "HDMI; DisplayPort; Mini-DisplayPort",
+        "Precio": "50000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 36,
+        "Marca": "ACER",
+        "Modelo": "V173B",
+        "Pulgadas": "17\"",
+        "Puertos": "VGA",
+        "Precio": "2000",
+        "Cantidad": "1"
+    },
+    {
+        "id": 37,
+        "Marca": "ACER",
+        "Modelo": "V226HQL",
+        "Pulgadas": "23\"",
+        "Puertos": "VGA; DVI",
+        "Precio": "5000",
+        "Cantidad": "1"
+    }
+]
