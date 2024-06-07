@@ -17,7 +17,7 @@ let products = [];
                 const firstImage = product.imgsPath && product.imgsPath.length > 0 ? product.imgsPath[0] : 'images/placeholder.jpg';
                 productElement.innerHTML = `
                     <div class="card" style="width: 24rem;">
-                         <img src="${firstImage}" class="card-img-top" alt="${product.Modelo}">
+                         <img src="${firstImage}" class="card-img-top img-fluid" alt="${product.Modelo}">
                         <div class="card-body">
                             <h5 class="card-title">${product.Modelo}</h5>
                             <p class="card-text">

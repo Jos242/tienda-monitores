@@ -5,12 +5,20 @@
 
 .card-img-top{
    height: 382px;
+   object-fit: cover;
+   width: 100%;
 }
+
+.card img{
+    max-height: 382px;
+}
+
+
 
 @media (max-width: 768px) {
     .card {
         margin: 0 auto; /* Center cards horizontally */
-        max-width: 18rem;
+        max-width: 21rem;
         margin-bottom: 20px;
     }
 
@@ -24,6 +32,7 @@ h1{
     font-size:100%;
     text-align: center;
     color: white;
+    margin-right: 5px;
 }
 
 header {
