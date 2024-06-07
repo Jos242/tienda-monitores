@@ -13,17 +13,18 @@
 </head>
 <body>
     <header>
+        <img src="images/logocole.png" alt="">  
         <h1>Venta de Monitores CTP Carrizal</h1>
     </header>
     <div class="container text-center">
             <div class="">
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <label class="input-group-text" for="sortOptions">Sort by:</label>
+                        <label class="input-group-text" for="sortOptions">Ordenar Por:</label>
                     </div>
                     <select class="custom-select" id="sortOptions" onchange="sortCatalog(this.value)">
-                        <option value="asc">Price (Low to High)</option>
-                        <option value="desc">Price (High to Low)</option>
+                        <option value="asc">Precio (Ascendente)</option>
+                        <option value="desc">Precio (Descendente)</option>
                     </select>
                 </div>
             </div>
@@ -31,6 +32,33 @@
             <hr>
             <br>
         <div id="catalog" class="row"></div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <button class="fab" data-bs-toggle="modal" data-bs-target="#comoComprarModal">Como Comprar?</button>
+
+    <!-- Como Comprar Modal -->
+    <div class="modal fade" id="comoComprarModal" tabindex="-1" aria-labelledby="comoComprarModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="comoComprarModalLabel">Como Comprar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Aquí se explica cómo comprar nuestros productos:</p>
+                    <ol>
+                        <li>Encuentre el producto que desea comprar.</li>
+                        <li>Haga clic en "Ver Información" para más detalles y confirmar Información.</li>
+                        <li>Contacte a al numero 87654321 o al correo juan@gmail.com.</li>
+                        <li>Coordine el pago y recoja su producto.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
 
       <!-- Product Details Modal -->
@@ -67,7 +95,13 @@
     </div>
     </main>
     <footer>
-        <p>&copy; CTP Carrizal 2024</p>
+        <p> 
+            <mat-toolbar-row color="accent" layout-align="start center" class="footer">
+                 <p class="title-center">
+                    &copy; CTP Carrizal - Todos los derechos reservados - 2024
+                 </p> 
+            </mat-toolbar-row> 
+        </p>  
     </footer>
 
     <script>

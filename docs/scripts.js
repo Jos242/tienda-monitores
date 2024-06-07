@@ -13,17 +13,18 @@ let products = [];
             catalog.innerHTML = '';
             products.forEach((product, index) => {
                 const productElement = document.createElement('div');
-                productElement.className = 'col-md-3 mb-4'; // 4 cards per row
+                productElement.className = 'col-md-4'; // 4 cards per row
+                const firstImage = product.imgsPath && product.imgsPath.length > 0 ? product.imgsPath[0] : 'images/placeholder.jpg';
                 productElement.innerHTML = `
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/placeholder.jpg" class="card-img-top" alt="${product.Modelo}">
+                    <div class="card" style="width: 24rem;">
+                         <img src="${firstImage}" class="card-img-top" alt="${product.Modelo}">
                         <div class="card-body">
                             <h5 class="card-title">${product.Modelo}</h5>
                             <p class="card-text">
                                 <h6>Marca: ${product.Marca}</h6>
-                                <h6>Precio: $${product.Precio}</h6>
-                                <h6>Cantidad: ${product.Cantidad}</h6>
+                                <h6>Precio: ₡${product.Precio}</h6>
                                 <h6>Tamaño: ${product.Pulgadas}</h6>
+                                <h6>Puertos de Video: ${product.Puertos}</h6>
                             </p>
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal" onclick="openProductModal(${index})">Ver Información</button>
                         </div>
@@ -58,8 +59,10 @@ let products = [];
             productDetails.innerHTML = `
                 <h6>Marca: ${product.Marca}</h6>
                 <h6>Precio: $${product.Precio}</h6>
-                <h6>Cantidad: ${product.Cantidad}</h6>
+                <h6>Puertos de Video: ${product.Puertos}</h6>
                 <h6>Tamaño: ${product.Pulgadas}</h6>
+                <br>
+                <h6>Cantidad Disponible: ${product.Cantidad}</h6>
                 <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
             `;
         }

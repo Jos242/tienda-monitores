@@ -8,9 +8,8 @@
         "Precio": "2000",
         "Cantidad": "1",
         "imgsPath": [
-            "images/placeholder.jpg",
-            "images/logocole.png",
-            "images/p2.jpg"
+            "images/E170Sc-1.png",
+            "images/E170Sc-2.webp"
         ]
     },
     {
@@ -20,7 +19,11 @@
         "Pulgadas": "17\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/E176FPc-2.jpg",
+            "images/E176FPc-1.jpg"
+        ]
     },
     {
         "id": 3,
@@ -29,7 +32,11 @@
         "Pulgadas": "17\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "5"
+        "Cantidad": "5",
+        "imgsPath": [
+            "images/E177FPf-1.webp",
+            "images/E177FPf-2.jpg"
+        ]
     },
     {
         "id": 3,
