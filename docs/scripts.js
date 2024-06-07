@@ -13,11 +13,13 @@ let products = [];
             catalog.innerHTML = '';
             products.forEach((product, index) => {
                 const productElement = document.createElement('div');
-                productElement.className = 'col-md-4'; // 4 cards per row
+                productElement.className = 'col-md-4';
                 const firstImage = product.imgsPath && product.imgsPath.length > 0 ? product.imgsPath[0] : 'images/placeholder.jpg';
                 productElement.innerHTML = `
                     <div class="card" style="width: 24rem;">
-                         <img src="${firstImage}" class="card-img-top img-fluid" alt="${product.Modelo}">
+                        <div class="divImg">
+                            <img src="${firstImage}" class="card-img-top img-fluid" alt="${product.Modelo}">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">${product.Modelo}</h5>
                             <p class="card-text">
@@ -61,9 +63,9 @@ let products = [];
                 <h6>Precio: $${product.Precio}</h6>
                 <h6>Puertos de Video: ${product.Puertos}</h6>
                 <h6>Tamaño: ${product.Pulgadas}</h6>
-                <br>
                 <h6>Cantidad Disponible: ${product.Cantidad}</h6>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
             `;
         }
 

@@ -45,7 +45,12 @@
         "Pulgadas": "19\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "54"
+        "Cantidad": "54",
+        "imgsPath": [
+            "images/E1912H-1.webp",
+            "images/E1912H-2.webp",
+            "images/E1912H-3.jpg"
+        ]
     },
     {
         "id": 4,
@@ -54,7 +59,12 @@
         "Pulgadas": "19\"",
         "Puertos": "VGA; DVI",
         "Precio": "2000",
-        "Cantidad": "31"
+        "Cantidad": "31",
+        "imgsPath": [
+            "images/E1913c-1.jpg",
+            "images/E1913c-2.png",
+            "images/E1913c-3.jpg"
+        ]
     },
     {
         "id": 5,
