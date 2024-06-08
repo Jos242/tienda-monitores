@@ -73,7 +73,11 @@
         "Pulgadas": "19\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "3"
+        "Cantidad": "3",
+        "imgsPath": [
+            "images/E1914Hf-1.jpg",
+            "images/E1914Hf-2.jpg"
+        ]
     },
     {
         "id": 6,
