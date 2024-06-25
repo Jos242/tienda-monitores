@@ -148,11 +148,16 @@
     {
         "id": 14,
         "Marca": "HP",
-        "Modelo": "G9W86A",
+        "Modelo": "V193-G9W86A",
         "Pulgadas": "18.5\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/V193-1.jpg",
+            "images/V193-2.jpg",
+            "images/V193-3.jpg"
+        ]
     },
     {
         "id": 15,
@@ -166,11 +171,15 @@
     {
         "id": 16,
         "Marca": "HP",
-        "Modelo": "GS918A",
+        "Modelo": "L1910-GS918A",
         "Pulgadas": "19\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/L1910-1.jpg",
+            "images/L1910-2.jpg"
+        ]
     },
     {
         "id": 17,
@@ -187,7 +196,7 @@
     {
         "id": 18,
         "Marca": "HP",
-        "Modelo": "HSTND-3501-A",
+        "Modelo": "LV1911-HSTND-3501-A",
         "Pulgadas": "21.5\"",
         "Puertos": "VGA",
         "Precio": "5000",
@@ -208,11 +217,15 @@
     {
         "id": 20,
         "Marca": "HP",
-        "Modelo": "HSTND-5041-F",
+        "Modelo": "V194-HSTND-5041-F",
         "Pulgadas": "18.5\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/V194-1.jpg",
+            "images/V194-2.jpg"
+        ]
     },
     {
         "id": 21,
@@ -233,7 +246,11 @@
         "Pulgadas": "17\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/L1710-1.jpg",
+            "images/L1710-2.jpg"
+        ]
     },
     {
         "id": 23,
@@ -251,7 +268,11 @@
         "Pulgadas": "19\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/LV911-1.jpg",
+            "images/LV911-2.jpg"
+        ]
     },
     {
         "id": 25,
@@ -260,7 +281,11 @@
         "Pulgadas": "19\"",
         "Puertos": "DisplayPort; VGA",
         "Precio": "10000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/P1913t-1.jpg",
+            "images/P1913t-2.jpg"
+        ]
     },
     {
         "id": 26,
@@ -335,7 +360,11 @@
         "Pulgadas": "19\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "2"
+        "Cantidad": "2",
+        "imgsPath": [
+            "images/TFT185W80PS-1.jpg",
+            "images/TFT185W80PS-2.jpg"
+        ]
     },
     {
         "id": 32,
@@ -421,16 +450,24 @@
         "Pulgadas": "17\"",
         "Puertos": "VGA",
         "Precio": "2000",
-        "Cantidad": "1"
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/V173B-1.jpg",
+            "images/V173B-2.jpg"
+        ]
     },
     {
         "id": 39,
         "Marca": "ACER",
         "Modelo": "V226HQL",
-        "Pulgadas": "23\"",
+        "Pulgadas": "22\"",
         "Puertos": "VGA; DVI",
-        "Precio": "5000",
-        "Cantidad": "1"
+        "Precio": "10000",
+        "Cantidad": "1",
+        "imgsPath": [
+            "images/V226HQL-1.png",
+            "images/V226HQL-2.png"
+        ]
     },
     {
         "id": 40,
@@ -438,8 +475,13 @@
         "Modelo": "E2270SWN",
         "Pulgadas": "22\"",
         "Puertos": "VGA;",
-        "Precio": "5000",
-        "Cantidad": "9"
+        "Precio": "10000",
+        "Cantidad": "9",
+        "imgsPath": [
+            "images/E2270SWN-1.webp",
+            "images/E2270SWN-2.jpg",
+            "images/E2270SWN-3.webp"
+        ]
     },
     {
         "id": 41,
