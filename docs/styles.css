@@ -125,3 +125,8 @@ footer {
     align-items: center;
 }
 
+.car img {
+    max-height: 350px;
+    max-width: 100%;
+    object-fit: contain; /* or object-fit: cover; depending on the desired effect */
+}

@@ -21,12 +21,12 @@ let products = [];
                             <img src="${firstImage}" class="card-img-top img-fluid" alt="${product.Modelo}">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">${product.Modelo}</h5>
+                            <h5 class="card-title">${product.Marca} ${product.Modelo}</h5>
                             <p class="card-text">
-                                <h6>Marca: ${product.Marca}</h6>
                                 <h6>Precio: ₡${product.Precio}</h6>
                                 <h6>Tamaño: ${product.Pulgadas}</h6>
                                 <h6>Puertos de Video: ${product.Puertos}</h6>
+                                <h6>Cantidad Disponible: ${product.Cantidad}</h6>
                             </p>
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal" onclick="openProductModal(${index})">Ver Información</button>
                         </div>
@@ -51,8 +51,8 @@ let products = [];
             product.imgsPath.forEach((imgPath, idx) => {
                 const carouselItemClass = idx === 0 ? 'carousel-item active' : 'carousel-item';
                 carouselInner.innerHTML += `
-                    <div class="${carouselItemClass}">
-                        <img src="${imgPath}" class="d-block w-100" alt="...">
+                    <div class="${carouselItemClass} car">
+                        <img src="${imgPath}" class="d-block w-100" alt="${imgPath}">
                     </div>
                 `;
             });
@@ -65,7 +65,7 @@ let products = [];
                 <h6>Tamaño: ${product.Pulgadas}</h6>
                 <h6>Cantidad Disponible: ${product.Cantidad}</h6>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+                
             `;
         }
 

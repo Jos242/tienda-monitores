@@ -1,0 +1,44 @@
+﻿[
+    {
+        "Marca": "AOC",
+        "Modelo": "195LM00003",
+        "Pulgadas": "21.5\"",
+        "Puertos": "VGA",
+        "Precio": null,
+        "Cantidad": "2"
+    },
+    {
+        "Marca": "iMAC",
+        "Modelo": "C02Q52T4F8J2",
+        "Pulgadas": "23\"",
+        "Puertos": null,
+        "Precio": null,
+        "Cantidad": "1"
+    },
+    {
+        "Marca": "Dell",
+        "Modelo": "E1921Hc",
+        "Pulgadas": "19\"",
+        "Puertos": "VGA",
+        "Precio": null,
+        "Cantidad": "1"
+    },
+    {
+        "Marca": "HP",
+        "Modelo": "HSTND-3691-A",
+        "Pulgadas": "20\"",
+        "Puertos": "VGA; HDMI; DVI",
+        "Precio": null,
+        "Cantidad": "1"
+    },
+    {
+        "id": 9,
+        "Marca": "Dell",
+        "Modelo": "E2019Hb",
+        "Pulgadas": "21.5\"",
+        "Puertos": "VGA; DisplayPort",
+        "Precio": null,
+        "Cantidad": "1"
+    }
+   
+]
